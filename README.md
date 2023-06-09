@@ -51,3 +51,7 @@ setelah selesai meng install git, hal pertama kali dilakukan adalah melakukan ko
 repository merupakan sebutah project di git, kita bisa membuat folder kosong atau folder yang sudah berisi file, lalu membuatnya sebagai git repository, atau bisa melakukan clone repository yang sudah ada dari server git.
 
 untuk membuat repository, kita hanya perlu menggunakan perintah `git init`, dan dilakukan dari dalam folder yang akan dijadikan sebagai git repository.
+
+#### command
+
+- `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
