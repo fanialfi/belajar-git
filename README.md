@@ -52,6 +52,22 @@ repository merupakan sebutah project di git, kita bisa membuat folder kosong ata
 
 untuk membuat repository, kita hanya perlu menggunakan perintah `git init`, dan dilakukan dari dalam folder yang akan dijadikan sebagai git repository.
 
+## workflow
+
+### the three states
+
+git memiliki 3 state terhadap file kita, yaitu : `modified`, `staged`, `commited`,
+
+- `modified` artinya kita mengubah file, namun belum di simpan secara permanen ke repository.
+- `staged` artinya kita menandai modifikasi yang kita lakukan terhadap file akan disimpan secara permanen ke repository.
+- `commited` artinya data sudah aman disimpan di repository.
+
+### Three Section
+
+Tiga state sebelumnya di dalam Git dilakukan di section yang berbeda-beda, yaitu Working Directory, Staging Area dan Repository. saat kita melakukan modifikasi file, itu dilakukan di `Working Directory`, `Staging Area` atau `Staging Index` merupakan section dimana file sudah disiapkan untuk disimpan secara permanen, di Staging Area semua informasi perubahan file akan disimpan. `Repository` merupakan tempat dimana semua file dan database riwayat versi file disimpan
+
+secara sederhana, setiap perubahan akan dilakukan di `Working Directory`, jika ada yang mau kita siapkan untuk di simpan secara permanen, kita bawa perubahan tersebut ke dalam `Staging Index` atau `Staging Area`, selanjutnya, kita bisa melakukan penyimpanan versi baru secara permanen ke repository.
+
 #### command
 
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
