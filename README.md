@@ -37,3 +37,11 @@ git adalah salah satu DVCs yang ada, git tidak memerlukan server untuk melakukan
 setiap perubahan yang terjadi di git, git akan selalu membuat signature / penanda menggunakan algoritma hashing SHA-1, hal ini menjadikan perubahan sekecil apapun pasti bisa di deteksi oleh git.
 
 semuah hal ini terjadi karena didalam git secara otomatis akan di catat, hal ini menjadikan perubahan apapun di git, pasti bisa dikembalikan ke versi sebelumnya.
+
+## Configuration
+
+setelah selesai meng install git, hal pertama kali dilakukan adalah melakukan konfigurasi. yang paling utama adalah konfigurasi username dan email,
+
+`git config --global user.name "username"`.
+
+`git config --global user.email "email@example.com"`
