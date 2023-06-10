@@ -100,3 +100,8 @@ untuk menghapus file di repository, cukup lakukan delete file di folder-nya maka
 - `git add *namaFile* ` : digunakan untuk memindahkan file ke Staging index / Staging area.
 - `git commit -m *pesan commit*` : digunakan untuk memindahkan semua file yang berada di staging index ke dalam repository.
 - `git diff` : digunakan untuk melihat perubahan apa saja yang terjadi didalam file tertentu.
+- `git clean -f` : digunakan untuk membatalkan penambahan file yang ada didalam working directory.
+- `git restore namaFile` : digunakan untuk membatalkan perubahan pada file.
+- `git restore --staged namaFile` : digunakan untuk mengembalikan posisi file dari Staging Index ke Working Directory.
+- `git log` : digunakan untuk melihat commit log.
+- `git show hash` : digunakan untuk melihat detail perubahan yang terjadi pada sebuah commit.
