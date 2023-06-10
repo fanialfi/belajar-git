@@ -82,6 +82,11 @@ setiap snapshot yang dilakukan, semua akan menghasilkan hash sebagai identitas d
 
 head merupakan pointer menuju hash paling akhir, karena kadang sangat menyulitkan jika harus menuliskan hash value, jika ingin menuju ke hash paling baru, bisa dengan menggunakan kata `HEAD`.
 
+## menambahkan file
+
+untuk menambahkan file baru ke repository, cukup tambahkan file nya saja. Secara otomatis file yang di tambahkan awalnya akan berada di working directory, secara default saat menambahkan file baru, file tersebut tidak akan di track perubahannya, agar perubahannya di track, maka harus di pindahkan ke Staging index.
+
 #### command
 
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
+- `git add *namaFile* ` : digunakan untuk memindahkan file ke Staging index / Staging area.
