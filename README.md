@@ -90,6 +90,10 @@ untuk menambahkan file baru ke repository, cukup tambahkan file nya saja. Secara
 
 untuk melakukan perubahan file, cukup lakukan perubahan terhadap file yang sudah ada di repository maka secara otomatis git bisa mendeteksi perubahannya, sama seperti dengan menambahkan file, jika perubahan ingin disimpan secara permanen, maka bisa dipindahkan ke staging index, lalu commit ke repository.
 
+## menghapus file
+
+untuk menghapus file di repository, cukup lakukan delete file di folder-nya maka secara otomatis git akan mendeteksi file yang hilang. Sama seperti menambah dan menghapus, jika perubahan ingin disimpan secara premanen di repository, maka harus menambahkan operasi tersebut ke staging index, lalu commit ke repository.
+
 #### command
 
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
