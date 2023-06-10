@@ -95,3 +95,4 @@ untuk melakukan perubahan file, cukup lakukan perubahan terhadap file yang sudah
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
 - `git add *namaFile* ` : digunakan untuk memindahkan file ke Staging index / Staging area.
 - `git commit -m *pesan commit*` : digunakan untuk memindahkan semua file yang berada di staging index ke dalam repository.
+- `git diff` : digunakan untuk melihat perubahan apa saja yang terjadi didalam file tertentu.
