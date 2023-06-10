@@ -68,6 +68,20 @@ Tiga state sebelumnya di dalam Git dilakukan di section yang berbeda-beda, yaitu
 
 secara sederhana, setiap perubahan akan dilakukan di `Working Directory`, jika ada yang mau kita siapkan untuk di simpan secara permanen, kita bawa perubahan tersebut ke dalam `Staging Index` atau `Staging Area`, selanjutnya, kita bisa melakukan penyimpanan versi baru secara permanen ke repository.
 
+## Hash
+
+### snapshot
+
+sebenarnya perubahan yang dilakukan bisa jadi dilakukan secara bersamaan untuk beberapa file, hal ini berarti sebenarnya tidak ada yang namanya versi file. Semua perubahan yang terjadi akan di rekam, dan kita sebut namanya snapshot. snapshot berisikan semua perubahan yang terjadi di semua file yang kita commit, dan setiap snapshot akan menghasilkan hash (sebagai id dari snapshot).
+
+### Hash
+
+setiap snapshot yang dilakukan, semua akan menghasilkan hash sebagai identitas dari snapshot-nya. Hash merupakan checksum untuk menghitung perubahan yang terjadi, git menggunakan algoritma SHA-1 untuk menghitung hash, hash dibutuhkan untuk menjaga data integrity, sehingga tiap snapshot yang sudah dilakukan tidak bisa diubah.
+
+### Head
+
+head merupakan pointer menuju hash paling akhir, karena kadang sangat menyulitkan jika harus menuliskan hash value, jika ingin menuju ke hash paling baru, bisa dengan menggunakan kata `HEAD`.
+
 #### command
 
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
