@@ -86,6 +86,10 @@ head merupakan pointer menuju hash paling akhir, karena kadang sangat menyulitka
 
 untuk menambahkan file baru ke repository, cukup tambahkan file nya saja. Secara otomatis file yang di tambahkan awalnya akan berada di working directory, secara default saat menambahkan file baru, file tersebut tidak akan di track perubahannya, agar perubahannya di track, maka harus di pindahkan ke Staging index.
 
+## mengubah file
+
+untuk melakukan perubahan file, cukup lakukan perubahan terhadap file yang sudah ada di repository maka secara otomatis git bisa mendeteksi perubahannya, sama seperti dengan menambahkan file, jika perubahan ingin disimpan secara permanen, maka bisa dipindahkan ke staging index, lalu commit ke repository.
+
 #### command
 
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
