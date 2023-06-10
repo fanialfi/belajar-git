@@ -90,3 +90,4 @@ untuk menambahkan file baru ke repository, cukup tambahkan file nya saja. Secara
 
 - `git status` : digunakan untuk mengecek perubahan apa yang terjadi di repository.
 - `git add *namaFile* ` : digunakan untuk memindahkan file ke Staging index / Staging area.
+- `git commit -m *pesan commit*` : digunakan untuk memindahkan semua file yang berada di staging index ke dalam repository.
